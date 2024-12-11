@@ -1,0 +1,1002 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed');
+
+
+header{	
+	position: relative;
+	background: url('../img/background.jpeg') no-repeat center center;
+	background-size: cover;
+	width:100%;
+	height:100vh;
+}
+header .sticky{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	z-index: 999;
+	transition: 0.6s;
+	background-color:#333;
+	opacity: 0.5;
+}
+header .nav{
+}
+header .sticky .nav{
+	height: auto;
+	margin-top:40px;
+	margin-left: 48vh;
+}
+header .sticky .nav ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+header .sticky .nav ul li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Fira Sans', sans-serif;
+	transition: 0.5s;
+
+}
+header .sticky .nav ul li a:hover{
+	border-top: 2px solid #fff;
+	padding-top: 5px;
+	border-bottom: 2px solid #fff;
+	padding-bottom: 5px;
+
+}
+#shop {
+	background: url('../img/bg_contact_us.jpg') no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	padding: 40px 0 ;
+}
+#shop .center_up_content h2 {
+	text-transform: uppercase;
+	font-size: 48px;
+	color: #00ff00;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 4px;
+	
+}
+#shop .center_up_content p {
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Fira Sans', sans-serif;
+
+}
+#shop article .top_img img {
+	width: 100%;
+	height: auto;
+}
+#shop article {
+	background: #fff;
+	color: #000;
+	padding-bottom: 10px;
+	margin: 20px 0;
+	transition: 0.3s;
+	height: 370px;
+}
+#shop article:hover{
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+}
+
+#shop article h3 {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-left: 10px;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	margin:20px 0;
+}
+#shop article p {
+	padding-left: 10px;
+	padding-right: 20px;
+	font-size: 16px;
+	font-family: 'Fira Sans', sans-serif;
+}
+#shop {
+	background: url('../img/bg_contact_us.jpg') no-repeat center center ;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	padding: 40px 0 ;
+	background-image: opacity: 0.5;
+}
+
+#shop .center_up_content h2 {
+	text-transform: uppercase;
+	font-size: 48px;
+	color: #00ff00;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 4px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#fshop {
+	background: url('../img/futball/stadion.jpg') no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	padding: 40px 0 ;
+}
+#fshop .center_up_content h2 {
+	text-transform: uppercase;
+	font-size: 48px;
+	color: #00ff00;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 4px;
+	
+}
+#fshop .center_up_content p {
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Fira Sans', sans-serif;
+
+}
+#fshop article .top_img img {
+	width: 100%;
+	height: auto;
+}
+#fshop article {
+	background: #fff;
+	color: #000;
+	padding-bottom: 10px;
+	margin: 20px 0;
+	transition: 0.3s;
+	height: 370px;
+}
+#fshop article:hover{
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+}
+
+#fshop article h3 {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-left: 10px;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	margin:20px 0;
+}
+#fshop article p {
+	padding-left: 10px;
+	padding-right: 20px;
+	font-size: 16px;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+
+
+
+#bshop {
+	background: url('../img/basket/backgroundbasket.jpg') no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	padding: 40px 0 ;
+}
+#bshop .center_up_content h2 {
+	text-transform: uppercase;
+	font-size: 48px;
+	color: #ffff00;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 4px;
+	
+}
+#bshop .center_up_content p {
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Fira Sans', sans-serif;
+
+}
+#bshop article .top_img img {
+	width: 100%;
+	height: auto;
+}
+#bshop article {
+	background: #fff;
+	color: #000;
+	padding-bottom: 10px;
+	margin: 20px 0;
+	transition: 0.3s;
+	height: 370px;
+}
+#bshop article:hover{
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+}
+
+#wshop {
+	background: url('../img/wolejbol/fon.jpg') no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	padding: 40px 0 ;
+}
+#wshop .center_up_content h2 {
+	text-transform: uppercase;
+	font-size: 48px;
+	color: #3d2ca0;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 4px;
+	
+}
+#wshop .center_up_content p {
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Fira Sans', sans-serif;
+
+}
+#wshop article .top_img img {
+	width: 100%;
+	height: auto;
+}
+#wshop article {
+	background: #fff;
+	color: #000;
+	padding-bottom: 10px;
+	margin: 20px 0;
+	transition: 0.3s;
+	height: 370px;
+}
+#wshop article:hover{
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+}
+
+#tshop {
+	background: url('../img/tennis_masa/bg_tennis_masa.jpg') no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	padding: 40px 0 ;
+}
+#tshop .center_up_content h2 {
+	text-transform: uppercase;
+	font-size: 48px;
+	color: #ffff00;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 4px;
+	
+}
+#tshop .center_up_content p {
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Fira Sans', sans-serif;
+
+}
+#tshop article .top_img img {
+	width: 100%;
+	height: auto;
+}
+#bshop article {
+	background: #fff;
+	color: #000;
+	padding-bottom: 10px;
+	margin: 20px 0;
+	transition: 0.3s;
+	height: 370px;
+}
+#tshop article:hover{
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+}
+#tshop article h3 {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-left: 10px;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	margin:20px 0;
+}
+#tshop article p {
+	padding-left: 10px;
+	padding-right: 20px;
+	font-size: 16px;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+#ttshop {
+	background: url('../img/tennis_kort/71f67488b0857639cee631943a3fc6fa_5_XL.jpg') no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	padding: 40px 0 ;
+}
+#ttshop .center_up_content h2 {
+	text-transform: uppercase;
+	font-size: 48px;
+	color: #073316;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 4px;
+	
+}
+#ttshop .center_up_content p {
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Fira Sans', sans-serif;
+
+}
+#ttshop article .top_img img {
+	width: 100%;
+	height: auto;
+}
+#ttshop article {
+	background: #fff;
+	color: #000;
+	padding-bottom: 10px;
+	margin: 20px 0;
+	transition: 0.3s;
+	height: 370px;
+}
+#ttshop article:hover{
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+}
+
+
+
+#sshop {
+	background: url('../img/ski/sski.jpg') no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	padding: 40px 0 ;
+}
+#sshop .center_up_content h2 {
+	text-transform: uppercase;
+	font-size: 48px;
+	color: #0000cc;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 4px;
+	
+}
+#sshop .center_up_content p {
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Fira Sans', sans-serif;
+
+}
+#sshop article .top_img img {
+	width: 100%;
+	height: auto;
+}
+#sshop article {
+	background: #fff;
+	color: #000;
+	padding-bottom: 10px;
+	margin: 20px 0;
+	transition: 0.3s;
+	height: 370px;
+}
+#sshop article:hover{
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+}
+
+#sshop article h3 {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-left: 10px;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	margin:20px 0;
+}
+#sshop article p {
+	padding-left: 10px;
+	padding-right: 20px;
+	font-size: 16px;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+
+
+
+
+#bsshop {
+	background: url('../img/bojnisportove/bbs.jpg') no-repeat center center ;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	padding: 40px 0 ;
+}
+#bsshop .center_up_content h2 {
+	text-transform: uppercase;
+	font-size: 48px;
+	color: #00ffcc;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 4px;
+	
+}
+#sshop .center_up_content p {
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Fira Sans', sans-serif;
+
+}
+#bsshop article .top_img img {
+	width: 100%;
+	height: auto;
+}
+#bsshop article {
+	background: #fff;
+	color: #000;
+	padding-bottom: 10px;
+	margin: 20px 0;
+	transition: 0.3s;
+	height: 370px;
+}
+#bsshop article:hover{
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+}
+
+#bsshop article h3 {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-left: 10px;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	margin:20px 0;
+}
+#bsshop article p {
+	padding-left: 10px;
+	padding-right: 20px;
+	font-size: 16px;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+
+
+
+
+
+
+#katerene{
+	background: url('../img/climbing/bclimb.jpg') no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	padding: 40px 0 ;
+}
+#katerene img{
+	float: right; 
+	padding-left: 30px; 
+	width: 30%; 
+	height: auto; 
+	border-radius: 50px;
+}
+#katerene h2{
+	font-weight: bold;
+	text-align: center;
+	color: #000;
+}
+p.krasota {
+	font-family: 'Marck Script', cursive;
+	border:3px;
+	border-style: solid;
+	border-color: #42b6f4;
+	padding: 1em;
+	border-radius: 30px;
+	margin-left: 2em;
+	margin-right: 2em;
+	background-color: #e1e7ea;
+	box-shadow: 0px 0px 41px 1px rgba(0,0,0,0.55);
+	text-align: justify;
+	font-size: 16pt;
+}
+
+#football{
+	background: url('../img/futball/backf.jpg') no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	padding: 40px 0 ;
+}
+#football img{
+	float: right; 
+	padding-left: 30px; 
+	width: 30%; 
+	height: auto; 
+	border-radius: 50px;
+}
+#football h2{
+	font-weight: bold;
+	text-align: center;
+	color: #0000ff;
+}
+p.krasotaf {
+	font-family: 'Marck Script', cursive;
+	border:3px;
+	border-style:solid;
+	border-color:#42b6f4;
+	padding: 1em;
+	border-radius: 30px;
+	margin-left: 2em;
+	margin-right: 2em;
+	background-color: #e1e7ea;
+	box-shadow: 0px 0px 41px 1px rgba(0,0,0,0.55);
+	text-align: justify;
+	font-size: 16pt;
+}
+.gornishte img{
+	width: 200px;
+	height: 400px;
+}
+#basket{
+	background: url('../img/basket/basketbg.jpg') no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	padding: 40px 0 ;
+}
+#basket img{
+	float: right; 
+	padding-left: 30px; 
+	width: 250px; 
+	height: auto; 
+	border-radius: 50px;
+}
+#basket h2{
+	font-weight: bold;
+	text-align: center;
+	color: #000;
+}
+p.krasotab {
+	font-family: 'Marck Script', cursive;
+	border:3px;
+	border-style: solid;
+	border-color: #000;
+	padding: 1em;
+	border-radius: 30px;
+	margin-left: 2em;
+	margin-right: 2em;
+	background-color: #ff6600;
+	box-shadow: 0px 0px 41px 1px rgba(0,0,0,0.55);
+	text-align: justify;
+	font-size: 16pt;
+	color: #000;
+}
+
+
+
+
+#opisanie{
+	background: url('../img/climbing/opback.jpg') no-repeat center center;
+}
+.container{
+	position: relative;
+	text-align: center;
+	
+}
+.bottom-right {
+  position: absolute;
+  bottom: 9px;
+  right:  200px;
+  border-radius: 10px;
+  border:#000;
+  background: #00ff00;
+  color:#000;
+  width: 250px;
+  height: auto;
+  opacity: 0.8;
+  padding-bottom: 10px;
+	margin: 20px 0;
+
+}
+
+#opisanie img{
+	width: 100%;
+	height: 290PX;
+	padding-bottom: 10px;
+	margin: 20px 0;
+	background: #fff;
+
+}
+
+
+
+
+
+
+#opisanief{
+	background: url('../img/futball/back2.jpg') no-repeat center center;
+}
+.container{
+	position: relative;
+	text-align: center;
+	
+}
+.bottom-right {
+  position: absolute  !important;
+  bottom: 9px;
+  right:  200px;
+  border-radius: 10px;
+  border:#000;
+  background: #00ff00;
+  color:#000;
+  width: 250px;
+  height: auto;
+  opacity: 0.8;
+  padding-bottom: 10px;
+  margin: 20px 0;
+
+}
+#opisanief h1{
+	color: #000;
+}
+
+#opisanief img{
+	width: 100%;
+	height: 290PX;
+	padding-bottom: 10px;
+	margin: 20px 0;
+	background: #fff;
+
+}
+
+
+
+
+
+
+
+#opisanieb{
+	background: url('../img/basket/back2.jpg') no-repeat center center;
+}
+.container{
+	position: relative;
+	text-align: center;
+	
+}
+ .bottom-rightb {
+  position: absolute;
+  bottom: 9px;
+  right:  200px;
+  border-radius: 10px;
+  border: #000;
+  background: #ff6600;
+  color:#000;
+  width: 250px;
+  height: auto;
+  opacity: 0.8;
+  padding-bottom: 10px;
+	margin: 20px 0;
+
+}
+
+#opisanieb img{
+	width: 100%;
+	height: 290px;
+	padding-bottom: 10px;
+	margin: 20px 0;
+	background: #fff;
+
+}
+
+
+
+
+
+#opisanies{
+	background: url('../img/ski/back2.jpg') no-repeat center center;
+}
+.container{
+	position: relative;
+	text-align: center;
+	
+}
+.bottom-rights {
+  position: absolute;
+  bottom: 9px;
+  right:  200px;
+  border-radius: 10px;
+  border:#000;
+  background: #0099ff;
+  color:#000;
+  width: 250px;
+  height: auto;
+  opacity: 0.8;
+  padding-bottom: 10px;
+	margin: 20px 0;
+
+}
+#opisanies h1{
+	color: #0000cc;
+	font-weight: bold;
+}
+
+#opisanies img{
+	width: 100%;
+	height: 290PX;
+	padding-bottom: 10px;
+	margin: 20px 0;
+	background: #fff;
+	float: right; 
+	padding-left: 30px; 
+	border-radius: 20px;
+
+}
+p.krasotas {
+	font-family: 'Marck Script', cursive;
+	border: 3px;
+	border-style: solid;
+	border-color: #000;
+	padding: 1em;
+	border-radius: 30px;
+	margin-left: 2em;
+	margin-right: 2em;
+	background-color: #00ffff;
+	box-shadow: 0px 0px 41px 1px rgba(0,0,0,0.55);
+	text-align: justify;
+	font-size: 16pt;
+	color: #000;
+}
+#ski h2{
+	font-weight: bold;
+	text-align: center;
+	color:#0000ff;
+}
+#ski img {
+	float: right; 
+	padding-left: 30px; 
+	width: 20%; 
+	height: auto; 
+	border-radius: 50px;
+}
+
+
+#opisanieh{
+	background: url('../img/handball/back2.jpg') no-repeat center center;
+	background-size: cover;
+}
+.container{
+	position: relative;
+	text-align: center;
+	
+}
+.bottom-righth {
+  position: absolute;
+  bottom: 9px;
+  right:  200px;
+  border-radius: 10px;
+  border:#000;
+  background: red;
+  color:#000;
+  width: 250px;
+  height: auto;
+  opacity: 0.9;
+  padding-bottom: 10px;
+	margin: 20px 0;
+
+}
+#opisanieh h1{
+	color: #0000cc;
+	font-weight: bold;
+}
+
+#opisanieh img{
+	width: 100%;
+	height: 290PX;
+	padding-bottom: 10px;
+	margin: 20px 0;
+	background: #fff;
+	float: right; 
+	padding-left: 30px; 
+	border-radius: 20px;
+
+}
+p.krasotah {
+	font-family: 'Marck Script', cursive;
+	font-weight: bold;
+	border: 3px;
+	border-style: solid;
+	border-color: #000;
+	padding: 1em;
+	border-radius: 30px;
+	margin-left: 2em;
+	margin-right: 2em;
+	background-color: red;
+	box-shadow: 0px 0px 41px 1px rgba(0,0,0,0.55);
+	text-align: justify;
+	font-size: 16pt;
+	color: #000;
+}
+#handball h2{
+	text-align: center;
+	font-weight: bold;
+	color: red;
+}
+#handball img {
+	float: right; 
+	padding-left: 30px; 
+	width: 30%; 
+	height: auto; 
+	border-radius: 50px;
+}
+
+
+
+
+footer{
+	padding: 30px 0;
+	background-color: #000;
+	border-top: 2px solid #606060;
+
+}
+
+footer span {
+	font-size: 16px;
+	font-family: 'Fira Sans', sans-serif;
+	color: rgb(238, 222, 222);
+	margin-left: 40px;
+}
+
+
+
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 20px;
+  bottom: -1px;
+  left: 15px;
+  right: 0;
+  height: 370px;
+  width: 263px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(255, 255, 255);
+}
+
+.hover:hover .overlay {
+  opacity: 90%;
+}
+
+.text {
+  color: black;
+  font-size: 16px;
+  position: absolute;
+  width: 70%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#contact-us {
+	padding: 160px 0px;
+  }
+  
+  #contact-us h5 {
+	font-weight: 500;
+	font-size: 18px;
+	color: #1e1e1e;
+	letter-spacing: 0.25px;
+	line-height: 26px;
+  }
+  
+  .contact-text {
+	font-weight: 400;
+	font-size: 14px;
+	color: #6F8BA4;
+	letter-spacing: 0.6px;
+	line-height: 26px;
+  }
+  
+  .contact-text p {
+	margin-bottom: 28px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+	color: #777;
+	font-size: 14px;
+	border: 1px solid rgb(0, 0, 0);
+	width: 100%;
+	height: 50px;
+	outline: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 25px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	margin-bottom: 30px;
+  }
+  
+  .contact-form textarea {
+	height: 150px;
+	resize: none;
+	padding: 20px;
+  }
+  button.main-button {
+	outline: none;
+	border: none;
+	cursor: pointer;
+	font-size: 13px;
+	border-radius: 20px;
+	padding: 12px 20px;
+	background-color: #1d1a1a;
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 0.25px;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+  }
+  
+  button.main-button:hover {
+	background-color: #000000;
+  }
